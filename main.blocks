@@ -1,1 +1,25 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="grove_gesture_create_event" id="FgZH)ki`fpzVw[F-Ij:J" x="207" y="210"><field name="gesture">GroveGesture.Right</field><statement name="HANDLER"><block type="device_start_melody" id="SS_]]CxA95qp;-[]F()i"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="Fg?nJbeQ,mMDBv,rL?0v"><field name="melody">Melodies.Dadadadum</field></block></value></block></statement></block><block type="grove_gesture_create_event" id="[5V8W9-6Ei[plwUF40ja" x="208" y="377"><field name="gesture">GroveGesture.Left</field><statement name="HANDLER"><block type="device_start_melody" id="n6OWnewEz`RUA@A88Wt{"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="cGmo;,8s3]r`P/+%Pk9|"><field name="melody">Melodies.Entertainer</field></block></value></block></statement></block><block type="device_pin_event" id="nE3pkhpxglyYh5sq2Q$." x="207" y="559"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_play_note" id="aLk*MfRP8(k?G^ml_,n7"><value name="note"><shadow type="device_note" id="6,kD09%L2`QMxtq6[$Nt"><field name="note">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="_E-(Oy@amVb^w4EdKWyB"><field name="fraction">BeatFraction.Half</field></shadow></value></block></statement></block><block type="device_pin_event" id="aVD_pG(||RhLPBVV[+p6" x="205" y="725"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_play_note" id="O.Q0~Ni%1$^w@{i_#;D!"><value name="note"><shadow type="device_note" id="X?knDj.$+rQu9yPK|PJ}"><field name="note">392</field></shadow></value><value name="duration"><shadow type="device_beat" id="+$++%tT_cuiAG^_2hXVA"><field name="fraction">BeatFraction.Half</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="grove_gesture_create_event" id="FgZH)ki`fpzVw[F-Ij:J" x="73" y="16"><field name="gesture">GroveGesture.Right</field><statement name="HANDLER"><block type="device_show_leds" id="}w?W]26u63$(CENYW1f9"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_start_melody" id="SS_]]CxA95qp;-[]F()i"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="Fg?nJbeQ,mMDBv,rL?0v"><field name="melody">Melodies.Dadadadum</field></block></value></block></next></block></statement></block><block type="grove_gesture_create_event" id="[5V8W9-6Ei[plwUF40ja" x="593" y="17"><field name="gesture">GroveGesture.Left</field><statement name="HANDLER"><block type="device_show_leds" id="tJ.*Y^@+NzIUT%Ku]Sfo"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_start_melody" id="n6OWnewEz`RUA@A88Wt{"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="cGmo;,8s3]r`P/+%Pk9|"><field name="melody">Melodies.Entertainer</field></block></value></block></next></block></statement></block><block type="device_pin_event" id="nE3pkhpxglyYh5sq2Q$." x="55" y="392"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="?Q(k0RG;sO2?(zzvv=ju"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_play_note" id="aLk*MfRP8(k?G^ml_,n7"><value name="note"><shadow type="device_note" id="6,kD09%L2`QMxtq6[$Nt"><field name="note">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="_E-(Oy@amVb^w4EdKWyB"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement></block><block type="device_pin_event" id="aVD_pG(||RhLPBVV[+p6" x="564" y="394"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="_L-m#Y@|$te=g5y[Y#5Q"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        # . # # . 
+        # . . # . 
+        . # # # .
+        `</field><next><block type="device_play_note" id="O.Q0~Ni%1$^w@{i_#;D!"><value name="note"><shadow type="device_note" id="X?knDj.$+rQu9yPK|PJ}"><field name="note">392</field></shadow></value><value name="duration"><shadow type="device_beat" id="+$++%tT_cuiAG^_2hXVA"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement></block></xml>
